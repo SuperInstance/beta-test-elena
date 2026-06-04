@@ -1,0 +1,14 @@
+[package]
+name = "beta-test-elena"
+version = "0.1.0"
+edition = "2021"
+description = "Dr. Elena's rigorous stress-test of the SuperInstance ternary agent ecosystem's 5 laws"
+
+[dependencies]
+rand = "0.8"
+rand_distr = "0.4"
+statrs = "0.16"
+
+[[bin]]
+name = "beta-test-elena"
+path = "src/main.rs"

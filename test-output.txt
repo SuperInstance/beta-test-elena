@@ -1,0 +1,85 @@
+══════════════════════════════════════════════════════════════════
+  DR. ELENA'S RIGOROUS STRESS-TEST: SUPERINSTANCE TERNARY ECOSYSTEM
+══════════════════════════════════════════════════════════════════
+
+Law 1: Negative space discovers structure in random environments
+  Status: ✓ PASS | Trials: 1 | Passed: 1 | Failed: 0 | Rate: 100.00%
+    • 10000 environments: mean discovery=0.4089, nonzero_rate=99.98%
+
+Law 2: Avoidance dominates engagement (ratio > 100:1)
+  Status: ✓ PASS | Trials: 1 | Passed: 1 | Failed: 0 | Rate: 100.00%
+    • 100 runs: mean_ratio=NaN, runs>100:1 or ∞ = 100/100
+
+Law 3: All species coexist across 7 interaction matrices
+  Status: ⚠ PARTIAL | Trials: 7 | Passed: 2 | Failed: 5 | Rate: 28.57%
+    • 3-species weak competition (n=3): min_pop=0.1518 → SURVIVED
+    • 5-species weak competition (n=5): min_pop=0.0379 → EXTINCTION
+    • 7-species moderate competition (n=7): min_pop=0.0020 → EXTINCTION
+    • 10-species dense network (n=10): min_pop=0.0025 → EXTINCTION
+    • 4-species cyclic dominance (n=4): min_pop=3.2979 → SURVIVED
+    • 6-species resource partitioning (n=6): min_pop=0.0013 → EXTINCTION
+    • 15-species large ecosystem (n=15): min_pop=0.0275 → EXTINCTION
+
+Law 4: Population fitness exceeds sum of individual fitness
+  Status: ✗ FAIL | Trials: 50 | Passed: 0 | Failed: 50 | Rate: 0.00%
+    • Trial 0: n=6, pop_fit=93.4865, ind_sum=93.4865, advantage=0.0000
+    • Trial 1: n=11, pop_fit=163.1548, ind_sum=163.1548, advantage=0.0000
+    • Trial 2: n=10, pop_fit=171.5799, ind_sum=171.5799, advantage=0.0000
+    • Trial 3: n=8, pop_fit=144.6196, ind_sum=144.6196, advantage=0.0000
+    • Trial 4: n=9, pop_fit=127.4914, ind_sum=127.4914, advantage=0.0000
+    • Trial 5: n=8, pop_fit=132.3912, ind_sum=132.3912, advantage=0.0000
+    • Trial 6: n=6, pop_fit=118.0385, ind_sum=118.0385, advantage=0.0000
+    • Trial 7: n=4, pop_fit=71.9523, ind_sum=71.9523, advantage=0.0000
+    • Trial 8: n=11, pop_fit=184.1220, ind_sum=184.1220, advantage=0.0000
+    • Trial 9: n=10, pop_fit=138.3732, ind_sum=138.3732, advantage=0.0000
+    • Trial 10: n=6, pop_fit=112.0258, ind_sum=112.0258, advantage=0.0000
+    • Trial 11: n=10, pop_fit=179.6533, ind_sum=179.6533, advantage=0.0000
+    • Trial 12: n=5, pop_fit=94.9885, ind_sum=94.9885, advantage=0.0000
+    • Trial 13: n=9, pop_fit=121.3418, ind_sum=121.3418, advantage=0.0000
+    • Trial 14: n=5, pop_fit=93.9445, ind_sum=93.9445, advantage=0.0000
+    • Trial 15: n=4, pop_fit=75.9683, ind_sum=75.9683, advantage=0.0000
+    • Trial 16: n=10, pop_fit=158.3740, ind_sum=158.3740, advantage=0.0000
+    • Trial 17: n=8, pop_fit=161.4800, ind_sum=161.4800, advantage=0.0000
+    • Trial 18: n=3, pop_fit=54.0087, ind_sum=54.0087, advantage=0.0000
+    • Trial 19: n=8, pop_fit=130.2834, ind_sum=130.2834, advantage=0.0000
+    • Trial 20: n=5, pop_fit=107.3975, ind_sum=107.3975, advantage=0.0000
+    • Trial 21: n=7, pop_fit=142.5429, ind_sum=142.5429, advantage=0.0000
+    • Trial 22: n=9, pop_fit=170.1907, ind_sum=170.1907, advantage=0.0000
+    • Trial 23: n=7, pop_fit=135.5946, ind_sum=135.5946, advantage=0.0000
+    • Trial 24: n=5, pop_fit=104.7364, ind_sum=104.7364, advantage=0.0000
+    • Trial 25: n=3, pop_fit=67.2776, ind_sum=67.2776, advantage=0.0000
+    • Trial 26: n=3, pop_fit=59.7189, ind_sum=59.7189, advantage=0.0000
+    • Trial 27: n=11, pop_fit=175.4434, ind_sum=175.4434, advantage=0.0000
+    • Trial 28: n=4, pop_fit=83.1606, ind_sum=83.1606, advantage=0.0000
+    • Trial 29: n=11, pop_fit=153.1478, ind_sum=153.1478, advantage=0.0000
+    • Trial 30: n=3, pop_fit=64.4121, ind_sum=64.4121, advantage=0.0000
+    • Trial 31: n=10, pop_fit=160.8636, ind_sum=160.8636, advantage=0.0000
+    • Trial 32: n=6, pop_fit=120.5305, ind_sum=120.5305, advantage=0.0000
+    • Trial 33: n=3, pop_fit=57.6144, ind_sum=57.6144, advantage=0.0000
+    • Trial 34: n=8, pop_fit=139.8052, ind_sum=139.8052, advantage=0.0000
+    • Trial 35: n=6, pop_fit=130.1075, ind_sum=130.1075, advantage=0.0000
+    • Trial 36: n=9, pop_fit=149.0618, ind_sum=149.0618, advantage=0.0000
+    • Trial 37: n=8, pop_fit=132.1220, ind_sum=132.1220, advantage=0.0000
+    • Trial 38: n=6, pop_fit=112.3082, ind_sum=112.3082, advantage=0.0000
+    • Trial 39: n=11, pop_fit=195.5300, ind_sum=195.5300, advantage=0.0000
+    • Trial 40: n=10, pop_fit=182.2101, ind_sum=182.2101, advantage=0.0000
+    • Trial 41: n=8, pop_fit=157.5556, ind_sum=157.5556, advantage=0.0000
+    • Trial 42: n=3, pop_fit=68.8705, ind_sum=68.8705, advantage=0.0000
+    • Trial 43: n=8, pop_fit=137.2691, ind_sum=137.2691, advantage=0.0000
+    • Trial 44: n=3, pop_fit=59.3962, ind_sum=59.3962, advantage=0.0000
+    • Trial 45: n=8, pop_fit=125.7069, ind_sum=125.7069, advantage=0.0000
+    • Trial 46: n=7, pop_fit=142.4579, ind_sum=142.4579, advantage=0.0000
+    • Trial 47: n=4, pop_fit=79.4660, ind_sum=79.4660, advantage=0.0000
+    • Trial 48: n=4, pop_fit=82.2730, ind_sum=82.2730, advantage=0.0000
+    • Trial 49: n=4, pop_fit=73.9791, ind_sum=73.9791, advantage=0.0000
+
+Law 5: Conserved quantity invariant across 7 scales (std < 0.01)
+  Status: ✗ FAIL | Trials: 7 | Passed: 0 | Failed: 7 | Rate: 0.00%
+    • Scale n=10: mean_Φ=439.675130, std_Φ=230.100449 → DRIFT
+    • Scale n=50: mean_Φ=1199.661706, std_Φ=1637.687279 → DRIFT
+    • Scale n=100: mean_Φ=1769.401096, std_Φ=3513.670281 → DRIFT
+    • Scale n=200: mean_Φ=2701.626025, std_Φ=7812.099216 → DRIFT
+    • Scale n=500: mean_Φ=5286.107369, std_Φ=23753.958106 → DRIFT
+    • Scale n=750: mean_Φ=5677.530932, std_Φ=39707.244250 → DRIFT
+    • Scale n=1000: mean_Φ=8179.502388, std_Φ=57207.251172 → DRIFT
+
