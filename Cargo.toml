@@ -2,6 +2,7 @@
 repository = "https://github.com/SuperInstance/beta-test-elena"
 name = "beta-test-elena"
 version = "0.1.0"
+license = "MIT OR Apache-2.0"
 edition = "2021"
 description = "Dr. Elena's rigorous stress-test of the SuperInstance ternary agent ecosystem's 5 laws"
 
